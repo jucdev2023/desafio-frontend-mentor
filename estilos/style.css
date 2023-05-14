@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+   background-color: hsl(30, 38%, 92%);
+   font-size: 14px;
+   
+   
+
+}
+
+.conteudo {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+#container {
+    display: flex;
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    
+
+}
+
+#img-conteudo {
+   width: 400px;
+   height: 300px;
+   border: 30px;
+   
+}
+.img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#informaçao {
+    padding-top: 34px;
+    margin: 10px;
+    border-top-right-radius: 20px;
+   
+}
+
+.informaçao-escrito {
+    padding: 20px;
+    margin-top: 10px;
+    line-height:28px;
+    
+}
+
+#perfume {
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 26px;
+   font-size: 17px;
+    
+}
+.informaçao-titulo {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 2.3em;
+
+}
+
+.paragrafo {
+    color: grey;
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#info-valor {
+    display: flex;
+    justify-content: start;
+    gap: 24px;
+    align-items: center;
+    padding-left: 17px;
+    padding-bottom: 18px;
+    margin-bottom: 18px;
+    font-size: 16px;
+    
+   
+}
+
+.info-valor-escrito {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    
+}
+
+.valor-real-desconto {
+
+    font-size: 2em;
+}
+
+.valor-real {
+
+    text-decoration: line-through;
+    color: grey;
+    
+ 
+
+}
+
+#button {
+    width: 220px;
+    height: 50px;
+    border: none;
+    background-color:  hsl(158, 36%, 37%);
+    border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   margin: auto;
+   
+   
+
+    
+}
+
+.name-btn {
+    color: white;
+    font-weight: bold;
+}
+
